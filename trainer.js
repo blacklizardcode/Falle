@@ -3,6 +3,7 @@ let correctAnswer
 let jsonData
 let caseChip
 let setChip
+let genderChip
 let promptText
 let checkButton
 let hintButton
@@ -69,6 +70,7 @@ function generateNewQuestion() {
 
   caseChip.innerText = randomItem.case
   setChip.innerText = randomItem.set
+  genderChip.innerText = randomItem.gender || "unknown"
   promptText.innerText = randomItem.prompt
   input.value = ""
 
@@ -123,6 +125,7 @@ async function main() {
   messages = document.getElementById("messages")
   caseChip = document.getElementById("caseChip")
   setChip = document.getElementById("setChip")
+  genderChip = document.getElementById("genderChip")
   promptText = document.getElementById("promptText")
   checkButton = document.getElementById("check")
   hintButton = document.getElementById("hint")
