@@ -1,0 +1,128 @@
+{
+  "metadata": {
+    "cases": ["nominative", "accusative", "dative", "genitive"],
+    "sets": ["daily", "travel", "school", "home"]
+  },
+  "items": [
+    {
+      "case": "nominative",
+      "set": "daily",
+      "prompt": "___ Mann ist hier.",
+      "answer": "der"
+    },
+    {
+      "case": "nominative",
+      "set": "home",
+      "prompt": "___ Frau kocht.",
+      "answer": "die"
+    },
+    {
+      "case": "nominative",
+      "set": "school",
+      "prompt": "___ Kind liest.",
+      "answer": "das"
+    },
+    {
+      "case": "accusative",
+      "set": "daily",
+      "prompt": "Ich sehe ___ Hund.",
+      "answer": "den"
+    },
+    {
+      "case": "accusative",
+      "set": "travel",
+      "prompt": "Wir kaufen ___ Fahrkarte.",
+      "answer": "die"
+    },
+    {
+      "case": "accusative",
+      "set": "home",
+      "prompt": "Sie hat ___ Buch.",
+      "answer": "das"
+    },
+    {
+      "case": "dative",
+      "set": "daily",
+      "prompt": "Ich helfe ___ Freund.",
+      "answer": "dem"
+    },
+    {
+      "case": "dative",
+      "set": "school",
+      "prompt": "Wir geben ___ Lehrerin das Heft.",
+      "answer": "der"
+    },
+    {
+      "case": "dative",
+      "set": "home",
+      "prompt": "Sie bringt ___ Kind Wasser.",
+      "answer": "dem"
+    },
+    {
+      "case": "genitive",
+      "set": "daily",
+      "prompt": "Das Auto ___ Mannes ist blau.",
+      "answer": "des"
+    },
+    {
+      "case": "genitive",
+      "set": "school",
+      "prompt": "Die Tasche ___ Schuelers ist schwer.",
+      "answer": "des"
+    },
+    {
+      "case": "genitive",
+      "set": "home",
+      "prompt": "Die Farbe ___ Tisches ist dunkel.",
+      "answer": "des"
+    },
+    {
+      "case": "nominative",
+      "set": "travel",
+      "prompt": "___ Zug ist spaet.",
+      "answer": "der"
+    },
+    {
+      "case": "accusative",
+      "set": "travel",
+      "prompt": "Ich nehme ___ Koffer.",
+      "answer": "den"
+    },
+    {
+      "case": "dative",
+      "set": "travel",
+      "prompt": "Wir folgen ___ Weg.",
+      "answer": "dem"
+    },
+    {
+      "case": "genitive",
+      "set": "travel",
+      "prompt": "Der Plan ___ Reise ist klar.",
+      "answer": "der"
+    },
+    {
+      "case": "accusative",
+      "set": "school",
+      "prompt": "Sie schreibt ___ Satz.",
+      "answer": "den"
+    },
+    {
+      "case": "dative",
+      "set": "school",
+      "prompt": "Der Lehrer erklaert ___ Klasse die Regel.",
+      "answer": "der"
+    },
+    {
+      "case": "genitive",
+      "set": "daily",
+      "prompt": "Das Ende ___ Tages ist ruhig.",
+      "answer": "des"
+    },
+    {
+      "case": "nominative",
+      "set": "daily",
+      "prompt": "___ Freunde sind nett.",
+      "answer": "die"
+    }
+  ]
+}
